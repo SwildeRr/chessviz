@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 void showdesk(char desk[8][8])
+
 {
     int i, j;
+
     printf("\n");
+
     for (i = 7; i >= 0; i--) {
         printf("%d|", i + 1);
 
